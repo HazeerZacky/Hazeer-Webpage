@@ -1,0 +1,310 @@
+/* ------------------------------------------ */
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #0c0c0c;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+/* ------------------------------------------ */
+
+.layout_padding {
+  padding: 70px 0;
+}
+
+.heading_container h2 {
+    position: relative;
+    margin-bottom: 50px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.heading_container p {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.heading_container.heading_center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+/* ------------------------------------------ */
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: initial;
+}
+
+
+/* ------------------------------------------ */
+
+/*header section*/
+.header_section {
+    padding: 20px 0;
+}
+
+
+.custom_nav-container {
+  padding: 0;
+}
+
+.custom_nav-container .navbar-nav {
+  margin-left: auto;
+}
+
+.custom_nav-container .navbar-nav .nav-item .nav-link {
+    padding: 20px;
+    color: #5c5c5c;
+    text-align: center;
+    font-weight: 600;
+}
+
+.custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
+  color: #000000;
+}
+
+/* ------------------------------------------ */
+
+
+
+
+/* ------------------------------------------ */
+
+.hazeer_section {
+
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  padding: 90px 0 75px 0;
+}
+
+.hazeer_section #customCarousel1 {
+  width: 100%;
+  text-align: center;
+  margin: 100px;
+}
+
+.hazeer_section .detail-box h1 {
+    font-size: 6rem;
+    color: #ffffff;
+}
+
+.hazeer_section .detail-box p {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+}
+
+.hazeer_section .detail-box a {
+    padding: 12px 45px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.hazeer_section .detail-box a:hover {
+  background-color: #cfcfcf;
+  color: #000000;
+}
+
+/* ------------------------------------------ */
+
+.slider_bg_box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.slider_bg_box img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top center;
+     object-position: top center;
+}
+
+/* ------------------------------------------ */
+
+.product_section .box .img-box img {
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
+.product_section .detail-box h5 {
+  font-size: 18px;
+  color: #505050;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.product_section .detail-box h6 {
+  margin-top: 10px;
+  color: #505050;
+  font-weight: 600;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.product_section .cen,.cen2 {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 42%;
+    
+}
+.product_section .cen a {
+  display: inline-block;
+  padding: 12px 45px;
+  background-color: transparent;
+  border: 2px solid #8c00ff;
+  color: #8c00ff;
+  border-radius: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+
+.product_section .cen a:hover {
+  background-color: #8c00ff;
+  color: #ffffff;
+}
+
+/* ------------------------------------------ */
+/* 2nd */
+
+.product2_section .box .img-box img {
+  margin-top: 70px;
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
+.product2_section .detail-box h5 {
+  font-size: 30px;
+  color: #505050;
+  margin-top: 5%;
+
+}
+
+.product2_section .detail-box h6 {
+  margin-top: 20px;
+  color: #505050;
+}
+
+.product2_section .cen {
+
+    margin-top: 20px;
+    margin-bottom: 70px;
+
+}
+
+.product2_section .cen a {
+  display: inline-block;
+  padding: 12px 45px;
+  background-color: transparent;
+  border: 2px solid #8c00ff;
+  color: #8c00ff;
+  border-radius: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-top: 10px;
+}
+
+.product2_section .cen a:hover {
+  background-color: #8c00ff;
+  color: #ffffff;
+}
+
+
+.hazeer_section .detail-box form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hazeer_section .detail-box form input {
+    width: 450px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 5px 25px;
+    background-color: #ffffff ;
+    opacity: 0.5;
+    margin-top: 15px;
+    text-align: left;
+}
+
+
+/* ------------------------------------------ */
+/** footer **/
+
+footer {
+    background: #ececec;
+    padding: 90px 0 70px;
+}
+
+.logo_footer {
+    margin-bottom: 30px;
+}
+
+.information_f a {
+  margin-right: 15px;
+    margin-bottom: 1.2rem;
+    line-height: 25px;
+    font-size: 15px;
+}
+.information_f1 {
+  
+  text-align: right;
+  margin-bottom: 1.2rem;
+  margin-right: 15px;
+  margin-bottom: 1.2rem;
+  line-height: 25px;
+  font-size: 15px;
+}
+
+form input {
+    background: #fff;
+    border: solid #ccc 1px;
+    padding: 15px 15px;
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    line-height: normal;
+}
+
+/* ------------------------------------------ */
+
+
+
